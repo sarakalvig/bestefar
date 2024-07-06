@@ -1,0 +1,29 @@
+/* src/pages/TravelDiary.css */
+.travel-diary {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .diary-entry {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .diary-entry h2 {
+    margin-top: 0;
+  }
+  
+  .entry-date {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  .entry-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
