@@ -8,11 +8,12 @@ const Header = () => {
     <header>
       <nav>
         <ul>
-          <li><Link to="/Hellas">Hellas</Link></li>
+          <li><Link to="/hellas">Hellas</Link></li>
           <li><Link to="/france">France</Link></li>
           <li><Link to="/japan">Japan</Link></li>
           <li><Link to="/india">India</Link></li>
           <li><Link to="/travel-diary">Travel Diary</Link></li>
+          <li><Link to="/sort-and-filter">Sort and Filter</Link></li>
         </ul>
       </nav>
     </header>

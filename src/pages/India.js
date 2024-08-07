@@ -1,15 +1,15 @@
 import React from 'react';
-import './Hellas.css';
+import './India.css';
 import DiaryEntry from '../components/DiaryEntry';
 import entries from '../entries';
 
-const Hellas = () => {
-  const hellasEntries = entries.filter(entry => entry.country === 'Hellas');
+const india = () => {
+  const indiaEntries = entries.filter(entry => entry.country === 'India');
 
   return (
-    <div className="hellas-page">
+    <div className="india-page">
       <div className="entries">
-        {hellasEntries.map((entry, index) => (
+        {indiaEntries.map((entry, index) => (
           <DiaryEntry 
             key={index}
             title={entry.title}
@@ -24,4 +24,4 @@ const Hellas = () => {
   );
 };
 
-export default Hellas;
+export default india;
