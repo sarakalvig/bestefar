@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/hellas" element={<Hellas />} />
         <Route path="/india" element={<India />} />
         <Route path="/travel-diary" element={<TravelDiary />} />
-        <Route path="/sort-and-filter" element={<SortAndFilter />} />
+        <Route path="/sort-andffff-filter" element={<SortAndFilter />} />
       </Routes>
     </Router>
   );
