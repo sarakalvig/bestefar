@@ -7,11 +7,11 @@ const SortAndFilter = () => {
   const [sortOrder, setSortOrder] = useState('ascending');
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [selectedCities, setSelectedCities] = useState([]);
-  const [selectedcategorys, setSelectedcategorys] = useState([]);
+  const [selectedCategories, setSelectedCategories] = useState([]);
 
   const uniqueCountries = [...new Set(entries.map(entry => entry.country))];
-  const uniqueCities = [...new Set(entries.map(entry => entry.city))];
-  const uniquecategorys = [...new Set(entries.map(entry => entry.category).filter(Boolean))]; // Filter out empty values
+  const uniqueCities = [...new Set(entries.flatMap(entry => entry.cities))]; // Flatten the array of cities
+  const uniqueCategories = [...new Set(entries.map(entry => entry.category).filter(Boolean))]; // Filter out empty values
 
   const handleSortChange = (e) => {
     setSortOrder(e.target.value);
@@ -31,9 +31,9 @@ const SortAndFilter = () => {
     );
   };
 
-  const handlecategoryChange = (e) => {
+  const handleCategoryChange = (e) => {
     const value = e.target.value;
-    setSelectedcategorys(prev =>
+    setSelectedCategories(prev =>
       prev.includes(value) ? prev.filter(c => c !== value) : [...prev, value]
     );
   };
@@ -47,8 +47,8 @@ const SortAndFilter = () => {
 
   const filteredEntries = sortedEntries.filter(entry => {
     const countryMatch = selectedCountries.length === 0 || selectedCountries.includes(entry.country);
-    const cityMatch = selectedCities.length === 0 || selectedCities.includes(entry.city);
-    const categoryMatch = selectedcategorys.length === 0 || selectedcategorys.includes(entry.category);
+    const cityMatch = selectedCities.length === 0 || selectedCities.some(city => entry.cities.includes(city));
+    const categoryMatch = selectedCategories.length === 0 || selectedCategories.includes(entry.category);
     return countryMatch && cityMatch && categoryMatch;
   });
 
@@ -91,15 +91,15 @@ const SortAndFilter = () => {
           ))}
 
           <label>Filter by category:</label>
-          {uniquecategorys.map(program => (
-            <label key={program}>
+          {uniqueCategories.map(category => (
+            <label key={category}>
               <input
                 type="checkbox"
-                value={program}
-                onChange={handlecategoryChange}
-                checked={selectedcategorys.includes(program)}
+                value={category}
+                onChange={handleCategoryChange}
+                checked={selectedCategories.includes(category)}
               />
-              {program}
+              {category}
             </label>
           ))}
         </div>

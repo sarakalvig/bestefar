@@ -1,15 +1,15 @@
-.India-page {
+.page {
     text-align: center;
-  }
-  
-  .entries {
+}
+
+.entries {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-  }
-  
-  .diary-entry {
+}
+
+.diary-entry {
     width: 80%;
     max-width: 800px;
     border: 1px solid #ccc;
@@ -18,21 +18,20 @@
     border-radius: 10px;
     background-color: #f9f9f9;
     text-align: left; /* Align text to the left */
-  }
-  
-  .diary-entry h2 {
+}
+
+.diary-entry h2 {
     margin-top: 0;
-  }
-  
-  .images {
+}
+
+.images {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
-  }
-  
-  .images img {
+}
+
+.images img {
     max-width: 100px;
     border-radius: 5px;
-  }
-  
+}

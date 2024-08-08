@@ -1,13 +1,13 @@
 import React from 'react';
-import './Hellas.css';
 import DiaryEntry from '../components/DiaryEntry';
 import entries from '../entries';
+import './page.css';
 
 const Hellas = () => {
   const hellasEntries = entries.filter(entry => entry.country === 'Hellas');
 
   return (
-    <div className="hellas-page">
+    <div className="page">
       <div className="entries">
         {hellasEntries.map((entry, index) => (
           <DiaryEntry 

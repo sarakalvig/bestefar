@@ -1,15 +1,15 @@
 import React from 'react';
-import './page.css';
 import DiaryEntry from '../components/DiaryEntry';
 import entries from '../entries';
+import './page.css';
 
-const india = () => {
-  const indiaEntries = entries.filter(entry => entry.country === 'India');
+const MiddelhavetCelebrityInfinity = () => {
+  const MiddelhavetCelebrityInfinityEntries = entries.filter(entry => entry.category === 'MiddelhavetCelebrityInfinityEntries');
 
   return (
     <div className="page">
       <div className="entries">
-        {indiaEntries.map((entry, index) => (
+        {MiddelhavetCelebrityInfinityEntries.map((entry, index) => (
           <DiaryEntry 
             key={index}
             title={entry.title}
@@ -24,4 +24,4 @@ const india = () => {
   );
 };
 
-export default india;
+export default MiddelhavetCelebrityInfinity;

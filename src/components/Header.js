@@ -16,7 +16,12 @@ const Header = () => {
               <li><Link to="/india">India</Link></li>
             </ul>
           </li>
-          <li><Link to="/cruise">Cruise</Link></li>
+          <li>
+          <button className="dropdown-button">Cruise</button>
+          <ul className="submenu">
+          <li><Link to="/middelhavet-celebrity-infinity">Hellas</Link></li>
+          </ul>
+          </li>
           <li><Link to="/elvecruise">Elvecruise</Link></li>
           <li><Link to="/travel-diary">Travel Diary</Link></li>
           <li><Link to="/sort-and-filter">Sort and Filter</Link></li>
