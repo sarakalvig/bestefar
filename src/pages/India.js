@@ -16,7 +16,7 @@ const india = () => {
             date={entry.date}
             text={entry.text}
             images={entry.images}
-            cruiseProgram={entry.cruiseProgram}
+            category={entry.category}
           />
         ))}
       </div>

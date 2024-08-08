@@ -8,7 +8,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <button className="dropdown-button">Countries</button>
+            <button className="dropdown-button">Rundreiser</button>
             <ul className="submenu">
               <li><Link to="/hellas">Hellas</Link></li>
               <li><Link to="/france">France</Link></li>
@@ -16,6 +16,8 @@ const Header = () => {
               <li><Link to="/india">India</Link></li>
             </ul>
           </li>
+          <li><Link to="/cruise">Cruise</Link></li>
+          <li><Link to="/elvecruise">Elvecruise</Link></li>
           <li><Link to="/travel-diary">Travel Diary</Link></li>
           <li><Link to="/sort-and-filter">Sort and Filter</Link></li>
         </ul>

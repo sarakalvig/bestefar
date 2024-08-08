@@ -7,11 +7,11 @@ const SortAndFilter = () => {
   const [sortOrder, setSortOrder] = useState('ascending');
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [selectedCities, setSelectedCities] = useState([]);
-  const [selectedCruisePrograms, setSelectedCruisePrograms] = useState([]);
+  const [selectedcategorys, setSelectedcategorys] = useState([]);
 
   const uniqueCountries = [...new Set(entries.map(entry => entry.country))];
   const uniqueCities = [...new Set(entries.map(entry => entry.city))];
-  const uniqueCruisePrograms = [...new Set(entries.map(entry => entry.cruiseProgram).filter(Boolean))]; // Filter out empty values
+  const uniquecategorys = [...new Set(entries.map(entry => entry.category).filter(Boolean))]; // Filter out empty values
 
   const handleSortChange = (e) => {
     setSortOrder(e.target.value);
@@ -31,9 +31,9 @@ const SortAndFilter = () => {
     );
   };
 
-  const handleCruiseProgramChange = (e) => {
+  const handlecategoryChange = (e) => {
     const value = e.target.value;
-    setSelectedCruisePrograms(prev =>
+    setSelectedcategorys(prev =>
       prev.includes(value) ? prev.filter(c => c !== value) : [...prev, value]
     );
   };
@@ -48,8 +48,8 @@ const SortAndFilter = () => {
   const filteredEntries = sortedEntries.filter(entry => {
     const countryMatch = selectedCountries.length === 0 || selectedCountries.includes(entry.country);
     const cityMatch = selectedCities.length === 0 || selectedCities.includes(entry.city);
-    const cruiseProgramMatch = selectedCruisePrograms.length === 0 || selectedCruisePrograms.includes(entry.cruiseProgram);
-    return countryMatch && cityMatch && cruiseProgramMatch;
+    const categoryMatch = selectedcategorys.length === 0 || selectedcategorys.includes(entry.category);
+    return countryMatch && cityMatch && categoryMatch;
   });
 
   return (
@@ -90,14 +90,14 @@ const SortAndFilter = () => {
             </label>
           ))}
 
-          <label>Filter by cruise program:</label>
-          {uniqueCruisePrograms.map(program => (
+          <label>Filter by category:</label>
+          {uniquecategorys.map(program => (
             <label key={program}>
               <input
                 type="checkbox"
                 value={program}
-                onChange={handleCruiseProgramChange}
-                checked={selectedCruisePrograms.includes(program)}
+                onChange={handlecategoryChange}
+                checked={selectedcategorys.includes(program)}
               />
               {program}
             </label>
@@ -113,7 +113,7 @@ const SortAndFilter = () => {
             date={entry.date}
             text={entry.text}
             images={entry.images}
-            cruiseProgram={entry.cruiseProgram}
+            category={entry.category}
           />
         ))}
       </div>

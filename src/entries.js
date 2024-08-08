@@ -14,7 +14,7 @@ const entries = [
              Ellers e der foredrag, kino, fantastiske show om kvelden, og alt for høge musikk over alt! Me prøve å finna rolige steder,\n\n
              men me foretrekke egentlig ro på lugaren! Og siden me har WF inkludert, har eg lokalen på radio om morgenen, og har det akkurat som hjemma!\n\n
              Og det e jo vitsen med å reisa!`,
-      cruiseProgram: 'cruise1',
+      category: 'cruise1',
       images: [
         'path/to/image1.jpg',
         'path/to/image2.jpg'
@@ -35,7 +35,7 @@ const entries = [
              og itte å ha servert oss et par ganger, huske de navnene våre! De jobbe ombord i 7 måneder, og så har de fri i 2!\n\n
              I kveld va det såkalt chic antrekk, heilt frivillig, og det e utrolig kor oppstasa mange e, og eg ser jo at kunsten å gå på høge hæler\n\n
              ikkje e det sama for ein generasjon så alltid går med joggesko!`,
-      cruiseProgram: 'cruise1',
+      category: 'cruise1',
       images: [
         'path/to/image3.jpg',
         'path/to/image4.jpg'
@@ -50,7 +50,7 @@ const entries = [
         I dag har me besøkt Mykonos, som ser akkurat ut sånn som me forventa, men siden 2 andre store cruiseskip også lå ankra opp her, krele det jo av turister, men antagelig e me storparten 
         av livsgrunnlaget her! I alle fall e de glade i kattar, over alt var der små vannskåler, og ein katt hadde til og med eget hus under ein bouganvilla busk!\n\n
         Me treffe utrolig mange hyggelige folk, et eldre kinesisk par bosatt i Canada, engelske, amerikanske, australske, og adle e nysgjerrige på kverandres land og levevis. Me har bare hørt et aent par prata norsk, så nå får engelsken vår kjørt seg!`,
-        cruiseProgram: 'cruise1',
+        category: 'cruise1',
         images: [
           'path/to/image3.jpg',
           'path/to/image4.jpg'
@@ -65,7 +65,7 @@ const entries = [
         I dag e me tebage te Pireus kor me starta, og Hop on bussane sto klar på kaien te å ta oss rundt i Athen. Og det tok tid!! Tror aldri eg har opplevd maken te trafikk kork, ikkje eingang i Østen, aggressive små gule taxier og dødsforaktande motorsykler pilte mellom filene, me satt me hjerta i halsen! Men det gjekk jo godt, så det antagelig gjør kver dag!
 Me fekk sett vaktavløsingen ved Parlamentet, folk sto i kø for å se på det som eg antar John Cleese har sett når han kom opp med «silly walks»! Herregud det så dumt ut!
 Itte alt det kaoset var det skjønt å komma tebage te skipet, nippa te et glass hvitvin på dekk og tenka at dette antagelig e det sista cruiset, bortsett fra elvecruise, me drar på! Ikkje bryr me oss om mat, ikkje ligge me på dekk og sole oss, og ikkje lige me å kle oss opp, men kjekt va det uansett!
-`,      cruiseProgram: 'cruise1',
+`,      category: 'cruise1',
         images: [
           'path/to/image3.jpg',
           'path/to/image4.jpg'
@@ -81,7 +81,7 @@ Itte alt det kaoset var det skjønt å komma tebage te skipet, nippa te et glass
         \n\n
         Me e ca 20 norske i reiseselskapet, og det e bare oss ombord… og tegang på WF komme te å vera svert varierende, vett heller ikkje om me får sendt bilder, ska jo prøva altså! Me har og fått oppgitt 3 tider på dagen me kan dusja, det e vannmangel i visse områder. Eg regne med at når me får sova ein heile natt, tar med alt på strak arm. Betjeningen e jo strålande, masse kjekke folk, så dette blir bra! Det e forresten langt hjemmafra når kapteinen på flyet opplyse midt på natten at nå e det tid for å be! (Ja, på grunn av Ramadan, altså) . Nå ska det bli spennande å se om eg får sendt någe!
         `,        
-        cruiseProgram: 'cruise1',
+        category: 'cruise1',
         images: [
           'path/to/image3.jpg',
           'path/to/image4.jpg'
@@ -96,7 +96,23 @@ Itte alt det kaoset var det skjønt å komma tebage te skipet, nippa te et glass
              The highlight of our trip was a boat tour along the Seine River where we learned about the city's rich history and culture.\n\n
              In the evenings, we attended several live performances at the renowned theaters and enjoyed the vibrant nightlife.\n\n
              Overall, Paris exceeded our expectations and provided a perfect blend of relaxation and adventure.`,
-      cruiseProgram: 'cruise2',
+      category: 'cruise2',
+      images: [
+        'path/to/image5.jpg',
+        'path/to/image6.jpg'
+      ]
+    },
+    {
+      title: 'Pireus, Hellas',
+      date: '2024-04-25',
+      country: 'France',
+      city: 'Pireus',
+      text: `Eg tror eg har nevnt det før, men någen av de showene de har ombord e heilt utrolige! Det e ikkje akkurat Danskebåten så har hyra artister, dette e profesjonelle West End artistar! Og for ei så elske musikaler, var jo kvelden i går fantastiske! The Miserable,  Operafantomet, Miss Saigon, til og med Oklahoma, som eg huske fra min barndom, alt kom som perler på snor, og eg nøyd det!\n\n
+      I dag e me tebage te Pireus kor me starta, og Hop on bussane sto klar på kaien te å ta oss rundt i Athen. Og det tok tid!! Tror aldri eg har opplevd maken te trafikk kork, ikkje eingang i Østen, aggressive små gule taxier og dødsforaktande motorsykler pilte mellom filene, me satt me hjerta i halsen! Men det gjekk jo godt, så det antagelig gjør kver dag!
+      Me fekk sett vaktavløsingen ved Parlamentet, folk sto i kø for å se på det som eg antar John Cleese har sett når han kom opp med «silly walks»! Herregud det så dumt ut!
+      Itte alt det kaoset var det skjønt å komma tebage te skipet, nippa te et glass hvitvin på dekk og tenka at dette antagelig e det sista cruiset, bortsett fra elvecruise, me drar på! Ikkje bryr me oss om mat, ikkje ligge me på dekk og sole oss, og ikkje lige me å kle oss opp, men kjekt va det uansett!
+      `,
+      category: 'cruise2',
       images: [
         'path/to/image5.jpg',
         'path/to/image6.jpg'

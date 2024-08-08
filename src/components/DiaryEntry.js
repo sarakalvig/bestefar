@@ -1,11 +1,11 @@
 import React from 'react';
 import './DiaryEntry.css'; // Add your styles here if needed
 
-const DiaryEntry = ({ title, date, text, images, cruiseProgram }) => {
+const DiaryEntry = ({ title, date, text, images, category }) => {
   return (
     <div className="diary-entry">
       <h2>{title}</h2>
-      {cruiseProgram && <h3 className="cruise-program">Cruise Program: {cruiseProgram}</h3>}
+      {category && <h3 className="cruise-program">category: {category}</h3>}
       <p><strong>{date}</strong></p>
       {text.split('\n\n').map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
