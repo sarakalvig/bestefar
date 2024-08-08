@@ -3,13 +3,13 @@ import DiaryEntry from '../components/DiaryEntry';
 import entries from '../entries';
 import './page.css';
 
-const MiddelhavetCelebrityInfinity = () => {
-  const MiddelhavetCelebrityInfinityEntries = entries.filter(entry => entry.category === 'MiddelhavetCelebrityInfinityEntries');
+const CelebrityInfinityMiddelhavet = () => {
+  const CelebrityInfinityMiddelhavetEntries = entries.filter(entry => entry.category === 'CelebrityInfinityMiddelhavet');
 
   return (
     <div className="page">
       <div className="entries">
-        {MiddelhavetCelebrityInfinityEntries.map((entry, index) => (
+        {CelebrityInfinityMiddelhavetEntries.map((entry, index) => (
           <DiaryEntry 
             key={index}
             title={entry.title}
@@ -24,4 +24,4 @@ const MiddelhavetCelebrityInfinity = () => {
   );
 };
 
-export default MiddelhavetCelebrityInfinity;
+export default CelebrityInfinityMiddelhavet;

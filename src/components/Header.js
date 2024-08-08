@@ -19,7 +19,8 @@ const Header = () => {
           <li>
           <button className="dropdown-button">Cruise</button>
           <ul className="submenu">
-          <li><Link to="/middelhavet-celebrity-infinity">Hellas</Link></li>
+          <li><Link to="/celebrity-infinity-middelhavet">CelebrityInfinityMiddelhavet</Link></li>
+          <li><Link to="/MS-ambience-england">MSAmbienceEngland</Link></li>
           </ul>
           </li>
           <li><Link to="/elvecruise">Elvecruise</Link></li>

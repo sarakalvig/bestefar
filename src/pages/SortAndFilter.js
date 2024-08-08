@@ -9,9 +9,9 @@ const SortAndFilter = () => {
   const [selectedCities, setSelectedCities] = useState([]);
   const [selectedCategories, setSelectedCategories] = useState([]);
 
-  const uniqueCountries = [...new Set(entries.map(entry => entry.country))];
-  const uniqueCities = [...new Set(entries.flatMap(entry => entry.cities))]; // Flatten the array of cities
-  const uniqueCategories = [...new Set(entries.map(entry => entry.category).filter(Boolean))]; // Filter out empty values
+  const uniqueCountries = [...new Set(entries.flatMap(entry => entry.countries))];
+  const uniqueCities = [...new Set(entries.flatMap(entry => entry.cities))];
+  const uniqueCategories = [...new Set(entries.map(entry => entry.category).filter(Boolean))];
 
   const handleSortChange = (e) => {
     setSortOrder(e.target.value);
@@ -46,7 +46,7 @@ const SortAndFilter = () => {
   });
 
   const filteredEntries = sortedEntries.filter(entry => {
-    const countryMatch = selectedCountries.length === 0 || selectedCountries.includes(entry.country);
+    const countryMatch = selectedCountries.length === 0 || selectedCountries.some(country => entry.countries.includes(country));
     const cityMatch = selectedCities.length === 0 || selectedCities.some(city => entry.cities.includes(city));
     const categoryMatch = selectedCategories.length === 0 || selectedCategories.includes(entry.category);
     return countryMatch && cityMatch && categoryMatch;
