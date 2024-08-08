@@ -128,7 +128,7 @@ const entries = [
     },
     {
       title: 'Kirkwall, Skottland',
-      date: '2023-07-23',
+      date: '2023-07-22',
       countries: ['Skottland'],
       cities: ['Kirkwall'],
       text: `
@@ -142,19 +142,20 @@ const entries = [
         'path/to/image1.jpg',
         'path/to/image2.jpg'
       ]
-    }
+    },
     {
-      title: 'Kirkwall, Skottland',
-      date: '2023-07-23',
-      countries: ['Skottland'],
-      cities: ['Kirkwall'],
+      title: 'Dhaka, Bangladesh',
+      date: '2023-11-04',
+      countries: ['Bangladesh'],
+      cities: ['Dhaka'],
       text: `
-      Me starta på cruise rundt de Britiske øyer på onsdag, skipet gjekk fra London, og me hadde aldri hørt om dette rederiet før, Ambassador, og visste ikkje heilt ka me forventa! Men gleden over å finna haugevis med kleshengere og et utall av skuffer og skap, gjorde ihvertfall meg meget positivt innstilt! Og skipet e heilt ok, ikkje så stort, tar ca 1200 passasjerer og inneholde alt et cruiseskip ska!\n\n
-      Me e ei store norske gruppa fra Fotefar temareiser, ca 90 stk, og ellers e det engelske passasjerer, og adle e godt voksne! Men det som gjør denne turen spesiell, e at me kver dag har foredrag av Hans Olav Lahlum, og han e strålande! Han fortelle om engelske og amerikanske politikere, drar de store linjene i historien, og foredragene e spekka med morsomme og kuriøse anekdoter og fun-facts! Visste dåkker f.eks. at det i London på 1800 talet, va postombæring ca 10 ganger te dagen! Det va den tids tekstmeldingar!\n\n
-      I går va me i Kirkwall, hovedstaden på Orknøyene, og ei kjempesvære, flotte kjerka, bygd av og for norske jarler, minne oss jo på den lange norske forbindelsen de har.\n\n
-      I dag ska me i land i Stornoway på Hebridene, og ingen av oss har peiling på kor de ligge, så me må sjekka kartet!\n\n
-            `,
-      category: 'MSAmbienceEngland',
+      Nå har me vår siste dag ombord, i mårå tidlig kjøre med minibuss te Dakhar, selvfølgelig med politieskorte, te et hotell me kan slappa av på før me flyr hjem seint i morgen. Det e ikkje langt te hovedstaden, så me får egentlig heile dagen der me omvisning! Då me ankra opp her i den vesle fiskelandsbyen, va det som å bli invitert inn i badeværelset te folkå her, det va rett før solnedgang, og då skal det vaskes før kveldsmåltidet! Og du verden så de vaske, innimellom alt det grønna så omtrent dekke heile havnen, dukke de under, vrir opp klær, prate og rope, og glor uhemma på oss mens de smile og vinke! Me har adle fått dreisen på den kongelige vinkingen!\n\n
+      Alt det grønna som drive i sjøen, kan brukes te kufor, men e jo ein pest og plage, men når monsunen komme, drive det te havs og forsvinne!\n\n
+      Me hadde ein liten utflukt te et museum og ein gammale moské, men det som me like best e jo når ein heile skole med skjønne ungdommer stille opp og vil veldig gjerna bli fotografert!\n\n
+      Me har fått et fantastisk godt inntrykk av menneskene her i Bangladesh, vennlige, nysgjerrige på oss, og med et dagligliv som sikkert har fungert likt i mange, mange år, bortsett fra mobiltelefonene, som absolutt adle har!\n\n
+      Takk for oss, det har vært ein fornøyelse å bli behandla som særdeles viktige gjester i et land som nesten ikkje har turister!\n\n
+                  `,
+      category: 'GangaVilasBangladesh',
       images: [
         'path/to/image1.jpg',
         'path/to/image2.jpg'
