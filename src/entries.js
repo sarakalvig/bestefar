@@ -145,7 +145,7 @@ const entries = [
     },
     {
       title: 'Dhaka, Bangladesh',
-      date: '2023-11-04',
+      date: '2023-04-11',
       countries: ['Bangladesh'],
       cities: ['Dhaka'],
       text: `
@@ -160,7 +160,189 @@ const entries = [
         'path/to/image1.jpg',
         'path/to/image2.jpg'
       ]
-    }
+    },
+    {
+      title: 'Våtmarksområdene i bangladesh',
+      date: '2023-04-10',
+      countries: ['Bangladesh'],
+      cities: [],
+      text: `
+      I går sto me opp kl 0500 for å dra på floating market, ca ein times kjøring fra kor båten lå. Det som e så løye, e at kor me enn drar, har me uniformert politieskorte, til og med bevepna, de kjøre med sirener foran oss og jage vekk hundrevis av tuk-tuker, og når me går gjennom små landsbyer kor alt stoppe opp for å se på oss, rydde de vei med myndige miner, har aldri følt meg så viktige någen gang!\n\n
+      Me kjørte videre i lange trebåter langs kanaler så frodige at det var som å kjøra i ein tunnell av grønt, mens folk leve livene sine, de pusse tenner, vaske klær, fiske og drar på markedet i alle mulige varianter av flytende farkoster! Det var heilt magisk, og ganske svalt, og selve markedet var jo et virvar av båter som knagga innte kverandre, søkklasta med adle mulige varer…. Me gjekk ein liten tur i land, og så at her var det nok muslim light, de satt og spiste mange steder under ramadan….\n\n
+      Som nevnt har me vært i avisen, men nå har me og vært vist på riksdekkende TV! Turister i Bangladesh!\n\n
+      Det e nok ikkje et land som har så mye kultur og gamle byggverk å visa fram, men opplevelsene me har med det ekta og fargerike folkelivet, e mye kjekkare! Og så lenge me blir behandla som viktige celebriteter, for første og garantert siste gang, e det jo ekstra løye! Og det e jo ikkje slutt ennå!\n\n
+                        `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Sundarbans, Bangladesh',
+      date: '2023-04-08',
+      countries: ['Bangladesh'],
+      cities: ['Sundarbans'],
+      text: `
+      Eg tror denne dagens opplevelser e det mest autentiske og ekta med har opplevd! Me seile altså gjennom et område så hette Sundarbans, verdens 2. største mangrovedelta! Det e her Bengaltigeren holde te, og me blei fortalt at viss tigeren drepe et menneske, slepe den offeret med seg gjennom røtter og kratt, slik at klærne blir revet av, tigeren like ikkje å spisa klær!\n\n
+      Den landsbyen me besøkte i dag, lage leirkrukker, de borte itte vann med håndkraft og over alt stimle folk sammen for å se på oss! I går va me på førstesiden i avisen, og i dag har lokal TV fulgt oss heile dagen! Me har politieskorte over alt, minst 10 politifolk, og alt e antagelig bare for de e forvetne på oss turister. De unge guttane spør heile tiden om å få ta selfie med oss, og det går rett ut på FB!\n\n
+      Langs elvebredden yre det av liv og røre, og neste gang de snakke om flom i Bangladesh , vett eg presis kor fortvilt det e for folk her! Landet e jo paddeflatt, og her langs elven kryr det jo av fisk, så me forstår jo koffor de bor her….\n\n
+      Det e sykt varmt, nærmere 40 grader, så me blir jo litt peste, men nå e vanntilførselen ok, så me kan dusja når me vil!\n\n
+      Me e faktisk ein attraksjon kor me enn komme, og folk e særdeles blide, selv om småungene av og te ser vettskremte ut!\n\n
+                              `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'på elver fra Kolkata til dakhar, Bangladesh, India', //??
+      date: '2023-04-06',
+      countries: ['India', 'Bangladesh'],
+      cities: ['Kolkata'],
+      text: `
+      Itte 2 dager med formaliteter fekk me omsider dra på land i Bangladesh! Og selv om det ikkje e rare severdighetene de har, me så ein 500 år gammale moské, e det jo me så e attraksjonen! Uansett kor me komme, strømme folk te med mobilene sine for å ta bilder av oss! Og når me kom te moskeen, var ein journalist fra lokalavisen der for å laga reportasje! Han fulgte oss med videre te et lite lokalt marked, og over alt e folk smilande og vennlige, selv om de sikkert e kjempesultne! Det e jo ramadan her, men folk e litt blanda i forhold te kor troande de e!\n\n
+      Mens me va ombord fant de jo på diverse underholdning, bl.a hennamaling og det e teit, eg må nå gå med håndflaten malte i orange mønster i mange dager! Lukte gjør det og! Men eg lot meg ihverfall ikkje avbilda med sari!\n\n
+      Når me har vært på utflukt, sette med skoene fra oss med ein gang me komme ombord, så blir de desinfiserte og vaska, og her lar adle skoene stå på gangen, me e jo så få! Ingen behøve låsa lugaren, og fra og med i dag ska me få vann i dusjen heile dagen!\n\n
+                                    `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'på elver fra Kolkata til dakhar, Bangladesh',
+      date: '2023-04-04',
+      countries: ['India', 'Bangladesh'],
+      cities: ['Kolkata', 'Dakhar'], 
+      text: `
+      Me e nå komt inn i Bangladesh, og har vært på båten heile dagen i påvente av at myndighetene ska gje oss tillatelsr te å reisa videre! Og te det krevdes det 16 mann + ei kåna, me e månedens happening her! Og adle offiserane syns det va jysla gildt å bli fotograferte!\n\n
+      Her e ca 32 grader, men ein gode bris oppe på dekk, og samtlige ombord har bestilt massasje av utrolig flinke damer, og kokken lage de mest fantastiske retter, någen skikkelig indiske og någen litt vestlige. Me har hatt forskjellig underholdning ombord om kvelden av veldig lokale grupper, og kan vel sei at det stort sett e for de spesielt interesserte! Men løye å se og ikkje minst hørra! Men det e nå de mest spennande utfluktene begynne, så me glede oss! I mårå ska me forresten ha kurs i kunsten å laga sari og male påskeegg!\n\n
+                                          `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'på elver fra Kolkata til dakhar, Bangladesh',
+      date: '2023-04-03',
+      countries: ['India', 'Bangladesh'],
+      cities: ['Kolkata', 'Dakhar'], 
+      text: `
+      Nå har eg ikkje tenkt å belemra dåkker med lange reisebrev kver dag, men akkurat nå har me nett, og det kan gå dager te neste gang! Me nærme oss Bangladesh, og byråkratiet mellom India og Bangladesh e ufattelig! Nå nettopp signerte me nok et skjema i 10 eksemplarer!\n\n
+      I morges besøkte me ein liten landsby på ein øy kor det e oppretta et senter for tiger-enker, dvs at mennene har tatt seg ulovlig inn i skogen og blitt drept av tiger, og har derfor heller ikkje krav på erstatning! Der va det og gratis sykestue og medisiner, men du ska nok helst holda deg friske! Men der va og førskole og barneskole, og ungane viste oss stolt at de kunne håndtere blyant!\n\n
+      På øya kunne me og bunkra vann fra dypvannsbrønn, så snart sleppe me bøttå og ausen i dusjen!\n\n
+      I dag va der ganske så varmt, men når det einaste du egentlig har å gjør, e å sitta på dekk og glo, så holde me ut! Me e ikkje mer enn ca 20 norske og et kanadisk par, så det e veldig trivelig!\n\n
+                                                `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Kolkata, India',//??
+      date: '2023-04-02',
+      countries: ['India'],
+      cities: ['Kolkata'],
+      text: `
+      Dag 2\n\n
+      Me starta med nydelig frokost mens båten glei forbi elvebanken, med travelt liv av båter og fiskere, og dro deretter i en mindre båt innover mangrovene te et krokodillerervat! Det er nok ikkje mange turister her, for heile landsbyen møtte opp, ihvertfall adle ungane, stivpynta og nydelige! Me blei fortalte om koss de tok vare på eggene, og kor viktig det var at eggene blei plassert nøyaktig slik morå hadde lagt de, ellers kunne hjernen havna i magen og hjerta i håvet! Og så fekk me jo se krokodiller i adle faser, og avslutta med at ein ansatt knekte vingene på ei stakkars høne og som blei kasta te ein monsterkrokodille! Norsk dyrevern hadde hatt litt å gjør! Me spurte koffor det e så viktig å ala opp masse krokodiller, og det e for de fungere som renovasjonsvesenet….\n\n
+      Aldri har me blitt fotograferte så mye som i dag, me e avbilda sammen med unger og ansatte kor me holde plakater med slagord, Bevar krokodillene! Det va rett før me gjekk i demonstrasjonstog ! Kjempeløye! Eg tror de ska laga nye turistbrosjyren!\n\n
+      Båten e heilt nye, nydelige service og mat, og litt spesielt at me i någen dager pga vannkvalitet, bare kan dusja i 3 oppgitte tider! Så me har et stort kar med øse, ståande i dusjen!\n\n
+      I går kveld hadde me underholdning av ei gruppe som sang og spelte på lokale instrumenter, og som de høflige folkå me e, ga masse applaus! I kveld får me ny, lokal underholdning, og ein ting e sikkert, eksotisk e det så det holde!\n\n
+                                                      `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Kolkata, India',
+      date: '2023-04-01',
+      countries: ['India'],
+      cities: ['Kolkata'],
+      text: `
+      Det føles litt løye å ønska God påske fra Kolkata, tidligere Calcutta i India, me ankom hit itte ein mellomlanding i Dubai, grytidlig i morges uten særlig søvn, og blei så umiddelbart tatt med på ein byrundtur i ein særdeles stygge by! Me ska altså på elvecruise fra India og te Bangladesh i 2 uker! Skipet e splitter nytt og me va de aller fyste passasjerene! Me blei ønska velkommen av trommeslagere, fekk klint gult pulver i pannen og gule blomsterkranser rundt halsen…. Så jo litt løgne ut, og eg lure jo litt på kor lenge me må ha de kransene, kan jo ikkje akkurat setta de i vaser!\n\n
+      Me e ca 20 norske i reiseselskapet, og det e bare oss ombord… og tegang på WF komme te å vera svert varierende, vett heller ikkje om me får sendt bilder, ska jo prøva altså! Me har og fått oppgitt 3 tider på dagen me kan dusja, det e vannmangel i visse områder. Eg regne med at når me får sova ein heile natt, tar med alt på strak arm. Betjeningen e jo strålande, masse kjekke folk, så dette blir bra! Det e forresten langt hjemmafra når kapteinen på flyet opplyse midt på natten at nå e det tid for å be! (Ja, på grunn av Ramadan, altså) . Nå ska det bli spennande å se om eg får sendt någe!\n\n
+                                                            `,
+      category: 'GangaVilasBangladesh',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Essaouira, Marokko',
+      date: '2022-11-25',
+      countries: ['Marokko'],
+      cities: ['Essaouira'],
+      text: `
+      Nå e me komt te siste stopp før hjemreisen, og det e i ein liten by så hette Essaouri (navnene e så vanskelige at eg huske ingen), og dette blei på 60-talet ein skikkelige hippiby, og det va faktisk her Torbjørn Egner blei inspirert te å skriva Kardemommeby! Her så han at kristne, muslimer og jøder levde i full harmoni, og han var visst i Marokko nesten kvert år!\n\n
+      Me dro fra Sahara gjennom spennande berberlandsbyer, ville fjell og overalt uttørka elveleier og innsjøer, det har ikkje regna på 5 år! Me fekk se Koss Berberkvinnene spant ull og lagde fantastiske tepper, som blir oppkjøpte av fancy interiørkjeder og koste ca 10 ganger så møje i Norge! Folk handla og landsbyen jubla! Seinere kom me te ein enorme slette, kor alt av grønnsaker og frukt blei dyrka, og kor clementinene me spise te jul blei høsta nå. Her vokse og någen spesielle trær med frukter så de utvinne Argan olje (eg hadde aldri hørt om den før, men e voldsomt eksklusive), og disse fruktene like geiter å spisa, og me så faktisk et tre fullt av geiter så har lært seg og klatra!\n\n
+      I dag blei me og inviterte hjem te vår strålande guide, Anne Marte, som bor i Agadir i et praktfullt hus fylt av kunst og antikviteter!\n\n
+      Me har lært så utrolig mye på turen og hatt så mange spesielle opplevelser, at det e nesten ikkje te å tro at alt dette har skjedd i løpet av ei uka!\n\n
+                                                                  `,
+      category: 'Rundreiser',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Sahara, Marokko',
+      date: '2022-11-23',
+      countries: ['Marokko'], //feil
+      cities: ['Sahara'], //feil
+      text: `
+      Nå har me kjørt i Sahara i 2 dager, og hadde någen gravide vært med, hadde det blitt fødsel umiddelbart! Det humpe og riste kontinuerlig, me har kjørt 6 Range Rovers, og de tåle det utrolige! Målet i går va ein teltleir hos Tuaregene, og det va ihvertfall ikkje Glamcamp! Eksotisk ja, men når me må tusla ut i bekmørke og gå på do ein bygning litt langt vekke, må eg huska på at det e heilt frivillig! Imidlertid blir jo det meste oppveid av ein fenomenal stjernehimmel, kor me til og med kunne se Melkeveien! Me hadde geit te lunch og kamel te middag, og begge deler smakte godt!\n\n
+      I dag kjørte me forbi ein nomadeleir, heilt autentiske, og det e utrolig å se mennesker som faktisk leve sånn de har levd i hundrevis av år… geiter, høner, esler, dromedarer vandre rundt, og søppel og dritt lå over alt! Men de vil altså ikkje flytta inn i landsbyen, så det e jo frivillig! Me stoppte og i ein uttørka innsjø og lette itte fossiler, det krelte av de!\n\n
+      Nå e me nettopp komt te et heilt ok hotell, her vokse daddelpalmer som høstes omtrent nå, og aldri har ein dusj vært deiligere! Me har faktisk vært dekka av støv, absolutt alt som ikkje har vært pakka i plast, må vaskes, men velge me å dra på tur te Sahara, så må me tåla det! Og veldig løye har det jo vært!
+      Det va forresten ca 20 damer på campen samtidig som oss, og de trente på rallykjøring i ørkenen, et løp kun forbeholdt kvinner, og kver av de hadde betalt 170000 for å få delta! Jaja, me har jo adle forskjellige prioteringer i livet!\n\n
+                                                                        `,
+      category: 'Rundreiser',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Atlas fjellene, Berber land, Marokko',
+      date: '2022-11-23',
+      countries: ['Marokko'], //feil
+      cities: ['Atlas fjellene','Berber land'], //feil
+      text: `
+      Jaja, 1001 nattfølelsen forsvant temmelig fort, men i stedet har me hatt ein fantastiske kjøretur over Atlas fjellene! Og så mye spennende historie me lære, me har ein utrolig dyktige guide så snakke flytende både arabisk og fransk og kan fortella oss masse om området me befinne oss i! Me e nå midt i Berber land, de opprinnelige beboerne i Marokko som blei fordreve av araberne opp i fjellene! De bor og leve fortsatt som de alltid har gjort, og fekk faktisk ikkje alfabet før på 1970-tallet. De bygge husene sine av jord iblanda halm, og her oppe i fjellene dyrke de og aprikoser og valnøtter. Folk e utrolig vennlige, og hotellet me bor på her, har ikkje lenger tillatelse å sjenka alkohol, så nå nyte me medbrakt!\n\n
+      Nå bor me altså i ein liten landsby utenfor ein av de eldste borgene, fra 1000 talet, som nå e på UNESCO sin verdensarvliste, og kor befolkningen e kjempekrye av at samtlige omtrent e statister i utallige filmer som har ørkenscener! For i mårå drar me ut i ørkenen og ska bo i telt, og håpe at det blir vindstille, for i ittemiddag gjekk me ein liten tur opp i borgen, invitert av ein beboer, og på veien hjem var det regelrett sandstorm og me sitte nå og knase sand mens me vente på middag!\n\n
+                                                                              `,
+      category: 'Rundreiser',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    {
+      title: 'Marrakesh, Marokko',
+      date: '2022-11-20',
+      countries: ['Marokko'], //feil
+      cities: ['Marrakesh'], //feil , del opp i region og? 
+      text: `
+      Ja sånn bor me i Marrakesh! Dette e jo et eventyrland, der e så mange farger og inntrykk som me nesten ikkje klare å absorbera! Me bor altså i ein Riad i gamlebyen, og det e då et ombygd rikmannspalass som e gjort om te hotell, her e ikkje ett rom likt, overalt e der utsmykninger, utrolige mosaikk og utskjæringer! Me spiste middag her i går kveld, og siden me spise under åpen himmel, e det ganske kaldt, 5-6 grader om kvelden og morgenen, så her gjelde det å kle seg godt te måltidene!\n\n
+      Nå har me nettopp komt hjem itte sight seeing, og det å gå i supertrange smug mens mopeder og sykler tute frenetisk, og selgere prøve å få oppmerksomheten din, e jo både spennende og slitsomt! Her e markede inndelt i type håndverk , og det jobbes og produseres over alt! Me har også vært på krydderskole, og mange kjypte ekta safran (ikkje eg)! Det krele av katter, og heile markedet e fantastisk!\n\n
+      Me fekk jo og vita at her i Marokko tror de Petter Stordalen e Norges kronprins, siden han svidde av 30 millioner på å leia et av Afrikas dyreste hotell i 3 dager!\n\n
+                                                                                    `,
+      category: 'Rundreiser',
+      images: [
+        'path/to/image1.jpg',
+        'path/to/image2.jpg'
+      ]
+    },
+    
   ];
   
   export default entries;

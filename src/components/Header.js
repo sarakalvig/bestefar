@@ -10,10 +10,7 @@ const Header = () => {
           <li>
             <button className="dropdown-button">Rundreiser</button>
             <ul className="submenu">
-              <li><Link to="/hellas">Hellas</Link></li>
-              <li><Link to="/france">France</Link></li>
-              <li><Link to="/japan">Japan</Link></li>
-              <li><Link to="/india">India</Link></li>
+              <li><Link to="/Marokko">Marokko</Link></li>
             </ul>
           </li>
           <li>
@@ -23,7 +20,12 @@ const Header = () => {
           <li><Link to="/MS-ambience-england">MSAmbienceEngland</Link></li>
           </ul>
           </li>
-          <li><Link to="/elvecruise">Elvecruise</Link></li>
+          <li>
+          <button className="dropdown-button">Elvecruise</button>
+          <ul className="submenu">
+          <li><Link to="/Ganga-Vilas-Bangladesh">GangaVilasBangladesh</Link></li>
+          </ul>
+          </li>
           <li><Link to="/travel-diary">Travel Diary</Link></li>
           <li><Link to="/sort-and-filter">Sort and Filter</Link></li>
         </ul>
