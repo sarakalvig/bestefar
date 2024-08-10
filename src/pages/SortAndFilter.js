@@ -64,7 +64,7 @@ const SortAndFilter = () => {
         </div>
 
         <div className="filter-controls">
-          <label>Filter by country:</label>
+          <label htmlFor="country">Filter by country:</label>
           {uniqueCountries.map(country => (
             <label key={country}>
               <input
@@ -77,7 +77,7 @@ const SortAndFilter = () => {
             </label>
           ))}
 
-          <label>Filter by city:</label>
+          <label htmlFor="city">Filter by city:</label>
           {uniqueCities.map(city => (
             <label key={city}>
               <input
@@ -90,7 +90,7 @@ const SortAndFilter = () => {
             </label>
           ))}
 
-          <label>Filter by category:</label>
+          <label htmlFor="category">Filter by category:</label>
           {uniqueCategories.map(category => (
             <label key={category}>
               <input

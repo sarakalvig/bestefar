@@ -1,3 +1,4 @@
+///Users/saraostdahl/development/country-website/src/components/Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'; // Add styles if needed
@@ -5,29 +6,29 @@ import './Header.css'; // Add styles if needed
 const Header = () => {
   return (
     <header>
+      <h1 className="header-title">Svein og Sidsel verden rundt</h1>
       <nav>
         <ul>
           <li>
-            <button className="dropdown-button">Rundreiser</button>
+            <button className="dropdown-button">RUNDREISER</button>
             <ul className="submenu">
               <li><Link to="/Marokko">Marokko</Link></li>
             </ul>
           </li>
           <li>
-          <button className="dropdown-button">Cruise</button>
-          <ul className="submenu">
-          <li><Link to="/celebrity-infinity-middelhavet">CelebrityInfinityMiddelhavet</Link></li>
-          <li><Link to="/MS-ambience-england">MSAmbienceEngland</Link></li>
-          </ul>
+            <button className="dropdown-button">CRUISE</button>
+            <ul className="submenu">
+              <li><Link to="/celebrity-infinity-middelhavet">CelebrityInfinityMiddelhavet</Link></li>
+              <li><Link to="/MS-ambience-england">MSAmbienceEngland</Link></li>
+            </ul>
           </li>
           <li>
-          <button className="dropdown-button">Elvecruise</button>
-          <ul className="submenu">
-          <li><Link to="/Ganga-Vilas-Bangladesh">GangaVilasBangladesh</Link></li>
-          </ul>
+            <button className="dropdown-button">ELVECRUISE</button>
+            <ul className="submenu">
+              <li><Link to="/Ganga-Vilas-Bangladesh">GangaVilasBangladesh</Link></li>
+            </ul>
           </li>
-          <li><Link to="/travel-diary">Travel Diary</Link></li>
-          <li><Link to="/sort-and-filter">Sort and Filter</Link></li>
+          <li><Link to="/sort-and-filter">SORTER OG FILTRER</Link></li>
         </ul>
       </nav>
     </header>
@@ -35,3 +36,4 @@ const Header = () => {
 };
 
 export default Header;
+

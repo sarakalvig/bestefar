@@ -1,63 +1,69 @@
 .sort-and-filter-page {
-    padding: 20px;
-  }
-  
-  .controls {
-    margin-bottom: 20px;
-  }
-  
-  .sort-controls,
-  .filter-controls {
-    margin-bottom: 10px;
-  }
-  
-  .sort-controls label,
-  .filter-controls label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .filter-controls label {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .entries {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .diary-entry {
-    width: 80%;
-    max-width: 800px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    text-align: left; /* Align text to the left */
-  }
-  
-  .diary-entry h2 {
-    margin-top: 0;
-  }
-  
-  .diary-entry .cruise-program {
-    font-size: 1.2em;
-    color: #555;
-    margin: 0.5em 0;
-  }
-  
-  .images {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .images img {
-    max-width: 100px;
-    border-radius: 5px;
-  }
-  
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.sort-controls,
+.filter-controls {
+  margin-bottom: 10px;
+}
+
+.sort-controls label,
+.filter-controls label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filter-controls label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Make the specific filter labels bold */
+.filter-controls label[for="country"],
+.filter-controls label[for="city"],
+.filter-controls label[for="category"] {
+  font-weight: bold;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.diary-entry {
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.diary-entry h2 {
+  margin-top: 0;
+}
+
+.diary-entry .cruise-program {
+  font-size: 1.2em;
+  color: #555;
+  margin: 0.5em 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.images img {
+  max-width: 100px;
+  border-radius: 5px;
+}

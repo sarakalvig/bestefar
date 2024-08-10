@@ -1,21 +1,6 @@
 const entries = [
    
-      {
-        title: 'Kolkata, India',
-        date: '2023-04-01',
-        countries: ['India'],
-        cities: ['Kolkata'], 
-        text: `
-        Det føles litt løye å ønska God påske fra Kolkata, tidligere Calcutta i India, me ankom hit itte ein mellomlanding i Dubai, grytidlig i morges uten særlig søvn, og blei så umiddelbart tatt med på ein byrundtur i ein særdeles stygge by! Me ska altså på elvecruise fra India og te Bangladesh i 2 uker! Skipet e splitter nytt og me va de aller fyste passasjerene! Me blei ønska velkommen av trommeslagere, fekk klint gult pulver i pannen og gule blomsterkranser rundt halsen…. Så jo litt løgne ut, og eg lure jo litt på kor lenge me må ha de kransene, kan jo ikkje akkurat setta de i vaser!
-        \n\n
-        Me e ca 20 norske i reiseselskapet, og det e bare oss ombord… og tegang på WF komme te å vera svert varierende, vett heller ikkje om me får sendt bilder, ska jo prøva altså! Me har og fått oppgitt 3 tider på dagen me kan dusja, det e vannmangel i visse områder. Eg regne med at når me får sova ein heile natt, tar med alt på strak arm. Betjeningen e jo strålande, masse kjekke folk, så dette blir bra! Det e forresten langt hjemmafra når kapteinen på flyet opplyse midt på natten at nå e det tid for å be! (Ja, på grunn av Ramadan, altså) . Nå ska det bli spennande å se om eg får sendt någe!
-        `,        
-        category: 'cruise1',
-        images: [
-          'path/to/image3.jpg',
-          'path/to/image4.jpg'
-        ]
-      },
+   
     {
       title: 'Pireus, Hellas',
       date: '2024-04-25',
@@ -25,20 +10,6 @@ const entries = [
       I dag e me tebage te Pireus kor me starta, og Hop on bussane sto klar på kaien te å ta oss rundt i Athen. Og det tok tid!! Tror aldri eg har opplevd maken te trafikk kork, ikkje eingang i Østen, aggressive små gule taxier og dødsforaktande motorsykler pilte mellom filene, me satt me hjerta i halsen! Men det gjekk jo godt, så det antagelig gjør kver dag!
       Me fekk sett vaktavløsingen ved Parlamentet, folk sto i kø for å se på det som eg antar John Cleese har sett når han kom opp med «silly walks»! Herregud det så dumt ut!
       Itte alt det kaoset var det skjønt å komma tebage te skipet, nippa te et glass hvitvin på dekk og tenka at dette antagelig e det sista cruiset, bortsett fra elvecruise, me drar på! Ikkje bryr me oss om mat, ikkje ligge me på dekk og sole oss, og ikkje lige me å kle oss opp, men kjekt va det uansett!
-      `,
-      category: 'CelebrityInfinityMiddelhavet',
-      images: [
-        'path/to/image5.jpg',
-        'path/to/image6.jpg'
-      ]
-    },
-    {
-      title: 'Ephesus & Mykonos, Hellas',
-      date: '2024-04-24', 
-      countries: ['Hellas'],
-      cities: ['Ephesus', 'Mykonos'], 
-      text: `Kver dag når me våkne, lure me på om der e snø på fjellene, men når morgendisen lette, ser me jo adle de kvite landsbyene som ligge klistra oppover fjellsidene. I dag har me besøkt Mykonos, som ser akkurat ut sånn som me forventa, men siden 2 andre store cruiseskip også lå ankra opp her, krele det jo av turister, men antagelig e me storparten av livsgrunnlaget her! I alle fall e de glade i kattar, over alt var der små vannskåler, og ein katt hadde til og med eget hus under ein bouganvilla busk!\n\n
-      Me treffe utrolig mange hyggelige folk, et eldre kinesisk par bosatt i Canada, engelske, amerikanske, australske, og adle e nysgjerrige på kverandres land og levevis. Me har bare hørt et aent par prata norsk, så nå får engelsken vår kjørt seg!
       `,
       category: 'CelebrityInfinityMiddelhavet',
       images: [
@@ -197,7 +168,7 @@ const entries = [
       ]
     },
     {
-      title: 'på elver fra Kolkata til dakhar, Bangladesh, India', //??
+      title: 'På elver fra Kolkata til dakhar, Bangladesh, India', //??
       date: '2023-04-06',
       countries: ['India', 'Bangladesh'],
       cities: ['Kolkata'],
@@ -213,7 +184,7 @@ const entries = [
       ]
     },
     {
-      title: 'på elver fra Kolkata til dakhar, Bangladesh',
+      title: 'På elver fra Kolkata til dakhar, Bangladesh',
       date: '2023-04-04',
       countries: ['India', 'Bangladesh'],
       cities: ['Kolkata', 'Dakhar'], 
@@ -228,7 +199,7 @@ const entries = [
       ]
     },
     {
-      title: 'på elver fra Kolkata til dakhar, Bangladesh',
+      title: 'På elver fra Kolkata til dakhar, Bangladesh',
       date: '2023-04-03',
       countries: ['India', 'Bangladesh'],
       cities: ['Kolkata', 'Dakhar'], 
