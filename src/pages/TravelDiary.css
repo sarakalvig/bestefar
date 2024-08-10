@@ -3,8 +3,8 @@
     width: 80%;
     margin: auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
-  }
+    font-family:'Helvetica Neue',
+    sans-serif;  }
   
   .diary-entry {
     border-bottom: 1px solid #ddd;

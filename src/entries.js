@@ -278,13 +278,18 @@ const entries = [
                                                                         `,
       category: 'Rundreiser',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2022-11-23/1.jpg',
+        '/2022-11-23/2.jpg',
+        "/2022-11-23/3.jpg",
+        "/2022-11-23/4.jpg",
+        "/2022-11-23/5.jpg",
+        "/2022-11-23/6.jpg",
+        "/2022-11-23/7.jpg",
       ]
     },
     {
       title: 'Atlas fjellene, Berber land, Marokko',
-      date: '2022-11-23',
+      date: '2022-11-21',
       countries: ['Marokko'], //feil
       cities: ['Atlas fjellene','Berber land'], //feil
       text: `
@@ -293,8 +298,7 @@ const entries = [
                                                                               `,
       category: 'Rundreiser',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+   
       ]
     },
     {
@@ -309,8 +313,12 @@ const entries = [
                                                                                     `,
       category: 'Rundreiser',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2022-11-20/1.jpg',
+        '/2022-11-20/2.jpg',
+        "/2022-11-20/3.jpg",
+        "/2022-11-20/4.jpg",
+        "/2022-11-20/5.jpg",
+        "/2022-11-20/6.png",
       ]
     },
     

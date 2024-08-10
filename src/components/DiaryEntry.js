@@ -1,7 +1,17 @@
-import React from 'react';
-import './DiaryEntry.css'; // Add your styles here if needed
+import React, { useState } from 'react';
+import './DiaryEntry.css';
 
 const DiaryEntry = ({ title, date, text, images, category }) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const handleNext = () => {
+    setCurrentImageIndex((currentImageIndex + 1) % images.length);
+  };
+
+  const handlePrevious = () => {
+    setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
+  };
+
   return (
     <div className="diary-entry">
       <h2>{title}</h2>
@@ -11,9 +21,9 @@ const DiaryEntry = ({ title, date, text, images, category }) => {
         <p key={index}>{paragraph}</p>
       ))}
       <div className="images">
-        {images.map((image, index) => (
-          <img key={index} src={image} alt={`Travel pic ${index + 1}`} />
-        ))}
+        <button onClick={handlePrevious}>Prev</button>
+        <img src={images[currentImageIndex]} alt={`Travel pic ${currentImageIndex + 1}`} />
+        <button onClick={handleNext}>Next</button>
       </div>
     </div>
   );

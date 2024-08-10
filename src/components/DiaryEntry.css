@@ -27,7 +27,12 @@
   }
   
   .images img {
-    max-width: 100px;
+    max-width: 300px;
     border-radius: 5px;
-  }
+}
+
+.images button {
+  height: 25px; /* Adjust this value to your liking */
+}
+
   

@@ -1,22 +1,25 @@
 header {
-  background-color: #333;
+  background-color: #ffffff;
   padding: 1em;
+  border: 0.5px solid #ccc;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
   display: inline-block;
   position: relative; /* Add this to enable positioning of the submenu */
-  margin-right: 1em;
+  margin-right: 1.2em;
 }
 
 nav ul li a, .dropdown-button {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   background: none;
   border: none;
@@ -62,4 +65,10 @@ nav ul li a:hover, .dropdown-button:hover {
 
 nav ul li:hover .submenu {
   display: block; /* Show the submenu on hover */
+}
+
+.header-title {
+  font-size: 1.5em; /* Adjust this value to make the title smaller */
+  font-weight: normal; /* This will make the font weight lighter */
+  text-align: center; /* This will center the title */
 }

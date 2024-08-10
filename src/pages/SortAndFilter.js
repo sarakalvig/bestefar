@@ -55,15 +55,17 @@ const SortAndFilter = () => {
   return (
     <div className="sort-and-filter-page">
       <div className="controls">
+
         <div className="sort-controls">
-          <label>Sort by date:</label>
-          <select onChange={handleSortChange} value={sortOrder}>
+        <label for="date">Sort by date:</label>
+        <select onChange={handleSortChange} value={sortOrder}>
             <option value="ascending">Ascending</option>
             <option value="descending">Descending</option>
           </select>
         </div>
 
         <div className="filter-controls">
+          <div> 
           <label htmlFor="country">Filter by country:</label>
           {uniqueCountries.map(country => (
             <label key={country}>
@@ -76,7 +78,8 @@ const SortAndFilter = () => {
               {country}
             </label>
           ))}
-
+          </div>
+          <div> 
           <label htmlFor="city">Filter by city:</label>
           {uniqueCities.map(city => (
             <label key={city}>
@@ -89,7 +92,7 @@ const SortAndFilter = () => {
               {city}
             </label>
           ))}
-
+      </div>
           <label htmlFor="category">Filter by category:</label>
           {uniqueCategories.map(category => (
             <label key={category}>

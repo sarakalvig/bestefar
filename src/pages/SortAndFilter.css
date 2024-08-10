@@ -22,13 +22,17 @@
   margin-right: 10px;
 }
 
-/* Make the specific filter labels bold */
+/*
+.sort-controls label[for="date"] {
+  text-decoration: underline;
+}
+
 .filter-controls label[for="country"],
 .filter-controls label[for="city"],
 .filter-controls label[for="category"] {
-  font-weight: bold;
+  text-decoration: underline;
 }
-
+*/
 .entries {
   display: flex;
   flex-direction: column;
@@ -64,6 +68,6 @@
 }
 
 .images img {
-  max-width: 100px;
+  max-width: 300px;
   border-radius: 5px;
 }
