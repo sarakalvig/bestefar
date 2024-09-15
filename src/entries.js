@@ -13,8 +13,11 @@ const entries = [
       `,
       category: 'CelebrityInfinityMiddelhavet',
       images: [
-        'path/to/image5.jpg',
-        'path/to/image6.jpg'
+        '/2024-04-25/25.april.2024_2.jpeg',
+        '/2024-04-25/25.april.2024_3.jpeg',
+        '/2024-04-25/25.april.2024_4.jpeg',
+        '/2024-04-25/25.april.2024_5.jpeg',
+        '/2024-04-25/25.april.2024.jpeg'
       ]
     },
     {
@@ -27,8 +30,11 @@ const entries = [
       `,
       category: 'CelebrityInfinityMiddelhavet',
       images: [
-        'path/to/image5.jpg',
-        'path/to/image6.jpg'
+        '/2024-04-24/24april.2024 _!.jpeg',
+        '/2024-04-24/24april.2024_2.jpeg',
+        '/2024-04-24/24april.2024_3.jpeg',
+        '/2024-04-24/24april.2024_4.jpeg',
+        '/2024-04-24/24april.2024_5.jpeg'
       ]
     },
     {
@@ -42,8 +48,7 @@ const entries = [
       `,
       category: 'CelebrityInfinityMiddelhavet',
       images: [
-        'path/to/image5.jpg',
-        'path/to/image6.jpg'
+        '/2024-04-21/21.04.2024_1.jpeg',
       ]
     },
     {
@@ -58,8 +63,8 @@ const entries = [
             `,
       category: 'CelebrityInfinityMiddelhavet',
       images: [
-        'path/to/image5.jpg',
-        'path/to/image6.jpg'
+        '/2024-04-19/19.04.2024_1.jpeg',
+        '/2024-04-19/19.04.2024_2.jpeg'
       ]
     },
     {
@@ -75,8 +80,13 @@ const entries = [
                   `,
       category: 'MSAmbienceEngland',
       images: [
-        'path/to/image5.jpg',
-        'path/to/image6.jpg'
+        '/2023-07-26/26.juli.2023_1.jpeg',
+        '/2023-07-26/26.juli.2023_2.jpeg',
+        '/2023-07-26/26.juli.2023_3.jpeg',
+        '/2023-07-26/26.juli.2023_4.jpeg',
+        '/2023-07-26/26.juli.2023_5.jpeg',
+        '/2023-07-26/26.juli.2023_6.jpeg',
+        '/2023-07-26/26.juli.2023_7.jpeg'
       ]
     },
     {
@@ -93,8 +103,10 @@ const entries = [
       `,
       category: 'MSAmbienceEngland',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-07-23/23.juli.2023_1.jpeg',
+        '/2023-07-23/23.juli.2023_2.jpeg',
+        '/2023-07-23/23.juli.2023_3.jpeg',
+        '/2023-07-23/23.juli.2023_5.jpeg'
       ]
     },
     {
@@ -110,8 +122,7 @@ const entries = [
             `,
       category: 'MSAmbienceEngland',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-07-22/22.juli.2023_1.jpeg',
       ]
     },
     {
@@ -128,8 +139,14 @@ const entries = [
                   `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-11/11.april.2023 _".jpeg',
+        '/2023-04-11/11.april.2023_1.jpeg',
+        '/2023-04-11/11.april.2023_2.jpeg',
+        '/2023-04-11/11.april.2023_3.jpeg',
+        '/2023-04-11/11.april.2023_4.jpeg',
+        '/2023-04-11/11.april.2023_5.jpeg',
+        '/2023-04-11/11.april.2023_6.jpeg',
+        '/2023-04-11/11.april.2023_7.jpeg'
       ]
     },
     {
@@ -145,8 +162,13 @@ const entries = [
                         `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-10/10.april.2023_!.jpeg',
+        '/2023-04-10/10.april.2023_1.jpeg',
+        '/2023-04-10/10.april.2023_2.jpeg',
+        '/2023-04-10/10.april.2023_3.jpeg',
+        '/2023-04-10/10.april.2023_4.jpeg',
+        '/2023-04-10/10.april.2023_5.jpeg',
+        '/2023-04-10/10.april.2023_6.jpeg'
       ]
     },
     {
@@ -163,8 +185,15 @@ const entries = [
                               `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-08/8.april.2023_2.jpeg',
+        '/2023-04-08/8.april.2023_1.jpeg',
+        '/2023-04-08/8.april.2023_3.jpeg',
+        '/2023-04-08/8.april.2023_4.jpeg',
+        '/2023-04-08/8.april.2023_5.jpeg',
+        '/2023-04-08/8.april.2023_6.jpeg',
+        '/2023-04-08/8.april.2023_7.jpeg',
+        '/2023-04-08/8.april.2023_8.jpeg',
+        '/2023-04-08/8.april.2023_9.jpeg'
       ]
     },
     {
@@ -179,8 +208,15 @@ const entries = [
                                     `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-06/6.april.2023_1.jpeg',
+        '/2023-04-06/6.april.2023_2.jpeg',
+        '/2023-04-06/6.april.2023_3.jpeg',
+        '/2023-04-06/6.april.2023_4.jpeg',
+        '/2023-04-06/6.april.2023_5.jpeg',
+        '/2023-04-06/6.april.2023_6.jpeg',
+        '/2023-04-06/6.april.2023_7.jpeg',
+        '/2023-04-06/6.april.2023_8.jpeg',
+        '/2023-04-06/6.april.2023_9.jpeg'
       ]
     },
     {
@@ -194,8 +230,9 @@ const entries = [
                                           `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-04/339575244_178285268389833_8000633362393083207_n.jpg',
+        '/2023-04-04/339684617_621894769274895_5347551367440385979_n.jpg',
+        '/2023-04-04/339747798_1584971191915158_1682712682359953485_n.jpg',
       ]
     },
     {
@@ -211,8 +248,12 @@ const entries = [
                                                 `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-03/339455622_731524928709420_3143572311289215304_n.jpg',
+        '/2023-04-03/339494643_610738333907196_5234187693035214558_n.jpg',
+        '/2023-04-03/339559063_235499432297540_4926558054466403067_n (1).jpg',
+        '/2023-04-03/339577498_224449306804137_2224941245466411256_n.jpg',
+        '/2023-04-03/339585604_132212639817917_5682804585470177900_n.jpg',
+        '/2023-04-03/339756526_256827523364564_3715239596320380845_n.jpg'
       ]
     },
     {
@@ -229,8 +270,9 @@ const entries = [
                                                       `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-02/339435739_5979884295434106_7730662957924052629_n.jpg',
+        '/2023-04-02/339451834_194160163357341_4638434630873011432_n.jpg',
+        '/2023-04-02/339473617_6167677586621624_3275167973709150822_n.jpg'
       ]
     },
     {
@@ -244,8 +286,8 @@ const entries = [
                                                             `,
       category: 'GangaVilasBangladesh',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2023-04-01/339249846_488749166669958_4823885635302494411_n.jpg',
+        '/2023-04-01/339277002_933308297711234_737958322630016904_n.jpg'
       ]
     },
     {
@@ -261,8 +303,13 @@ const entries = [
                                                                   `,
       category: 'Rundreiser',
       images: [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg'
+        '/2022-11-25/316538961_10225589510116229_3662045173945424820_n.jpg',
+        '/2022-11-25/316539600_10225589509316209_1616107725344171958_n.jpg',
+        '/2022-11-25/316543930_10225589509916224_265205369014478342_n.jpg',
+        '/2022-11-25/316550544_10225589510316234_8440060609052812807_n.jpg',
+        '/2022-11-25/316687921_10225589508036177_270895325498313597_n (1).jpg',
+        '/2022-11-25/316687921_10225589508036177_270895325498313597_n.jpg',
+        '/2022-11-25/316817567_10225589509596216_919754457345662933_n.jpg',
       ]
     },
     {
@@ -298,6 +345,9 @@ const entries = [
                                                                               `,
       category: 'Rundreiser',
       images: [
+        "/2022-11-21/316527104_10225565160667508_7890756816818160359_n.jpg",
+        "/2022-11-21/316537621_10225565159587481_7172088822244293441_n.jpg",
+        "/2022-11-21/316800030_10225565160107494_3992230949847751160_n.jpg",
    
       ]
     },
@@ -315,10 +365,10 @@ const entries = [
       images: [
         '/2022-11-20/1.jpg',
         '/2022-11-20/2.jpg',
-        "/2022-11-20/3.jpg",
-        "/2022-11-20/4.jpg",
-        "/2022-11-20/5.jpg",
-        "/2022-11-20/6.png",
+        '/2022-11-20/3.jpg',
+        '/2022-11-20/4.jpg',
+        '/2022-11-20/5.jpg',
+        '/2022-11-20/6.png',
       ]
     },
     

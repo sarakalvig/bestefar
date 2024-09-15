@@ -22,7 +22,7 @@ const DiaryEntry = ({ title, date, text, images, category }) => {
       ))}
       <div className="images">
         <button onClick={handlePrevious}>Prev</button>
-        <img src={images[currentImageIndex]} alt={`Travel pic ${currentImageIndex + 1}`} />
+        <img src={process.env.PUBLIC_URL + images[currentImageIndex]} alt={`Travel pic ${currentImageIndex + 1}`} />
         <button onClick={handleNext}>Next</button>
       </div>
     </div>
