@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bestefar/static/css/main.f0fde3e2.css",
-    "main.js": "/bestefar/static/js/main.2cf1c018.js",
+    "main.css": "/bestefar/static/css/main.f31e25ba.css",
+    "main.js": "/bestefar/static/js/main.0fe694d6.js",
     "static/js/453.0b682f06.chunk.js": "/bestefar/static/js/453.0b682f06.chunk.js",
     "index.html": "/bestefar/index.html",
-    "main.f0fde3e2.css.map": "/bestefar/static/css/main.f0fde3e2.css.map",
-    "main.2cf1c018.js.map": "/bestefar/static/js/main.2cf1c018.js.map",
+    "main.f31e25ba.css.map": "/bestefar/static/css/main.f31e25ba.css.map",
+    "main.0fe694d6.js.map": "/bestefar/static/js/main.0fe694d6.js.map",
     "453.0b682f06.chunk.js.map": "/bestefar/static/js/453.0b682f06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0fde3e2.css",
-    "static/js/main.2cf1c018.js"
+    "static/css/main.f31e25ba.css",
+    "static/js/main.0fe694d6.js"
   ]
 }
